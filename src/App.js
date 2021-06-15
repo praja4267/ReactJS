@@ -1,9 +1,11 @@
 
 function App() {
+  let x = 10;
+  let y = 20;
   return (
     <div className="Hello">
       <br/>
-      <h1>Hello World</h1>
+      {/* <h1>Hello World</h1>
       <label htmlFor="name"> User Name: </label>
       <input type="text" id="fName" placeholder="RajaSekhar" defaultValue="Raja"/><br/><br/ >
       <label htmlFor="user_password"> Password: </label>
@@ -13,7 +15,8 @@ function App() {
       <label htmlFor="username">Username: </label> <br/>
       <input id="username" type="text"/><br/><br/>
       <label htmlFor="password">Password: </label><br/>
-      <input id="password" type="password"/><br/><br/>
+      <input id="password" type="password"/><br/><br/> */}
+      <h1>sum = {x + y}</h1>
     </div>
   );
 }
